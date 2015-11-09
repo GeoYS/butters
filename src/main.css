@@ -19,3 +19,13 @@
 .bubble:hover, .bubble:focus, .bubble:active {
   transform: scale(1.1);
 }
+.imgbubble:hover, .imgbubblefocus, .imgbubble:active {
+	transform: scale(1.1);
+}
+.imgbubble{
+  vertical-align: middle;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
